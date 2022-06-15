@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        table, td, th {
+            border: 1px solid grey;
+        }
+        th
+        {
+            color:  tomato;
+        }
+        tr
+        {
+           text-align: center;
+        }
+    </style>
+    <table  border="1">
+        <tr>
+            <th> Phage protein header name</th>
+            <th> Phage protein prediction score </th>
+            <th> Phage protein prediction class </th>
+        </tr>
+        {% for row in result_all %}
+        <tr>
+            {% for cell in row %}
+            <td>{{cell}}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table> <br>
+
+{% endblock %}

@@ -1,0 +1,32 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <title>Phage Virion Protein Prediction Server</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/StyleSheetForPVP_Predict.css' %}" />
+</head>
+<body >
+<div id="wrapper" >
+           <nav id="navigation">
+               <ul>
+                   <li><a href="/">Home</a></li>
+                   <li><a href="/submission">Submission</a></li>
+                   <li><a href="/help">Help</a></li>
+                   <li><a href="/team">Team</a></li>
+                   <li><a href="/contact">Contact</a></li>
+               </ul>
+
+           </nav>
+           <div>
+               {% block content %}
+
+               {% endblock %}
+           </div>
+           <footer>
+               <p>©Division of Virology, ICMR-NICED, Kolkata, India, 2022. All rights reserved. </p>
+           </footer>
+       <div>
+
+</body>
+</html>

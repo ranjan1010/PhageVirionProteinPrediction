@@ -1,0 +1,7 @@
+SequenceName,PredictionScore,PredictedClass
+P1,0.9750320314176956,Virion Protein
+P2,0.5203039221330563,Virion Protein
+P3,0.9787879855101569,Virion Protein
+N1,0.010489797505523908,Non-Virion Protein
+N2,0.005404485384449147,Non-Virion Protein
+N3,0.24629407305937662,Non-Virion Protein

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+
+{% block content %}
+<p align="justify"> This site will help you to predict phage virion proteins (PVPs) from any phage protein
+    sequences. Therefore, any user can submit protein sequences in FASTA format to get the prediction result
+    for the same. Kindly find the below user guidelines for this site. </p>
+<p align="justify"> <b>Step 1.</b> After clicking the site url. This site will redirect to Home page of this site.
+    The home page is shown in the below figure. </p>
+<img src="/static/img/HomePage.png" width="900" height="500">
+<p align="justify"> <b>Step 2.</b> Now, go to submission page by clicking Submission tab shown in the below figure
+    with red circle. </p>
+<img src="/static/img/HomePage1.png" width="900" height="500">
+<p align="justify"> <b>Step 3.</b> The Submission page is shown in below figure. </p>
+<img src="/static/img/SubmissionPage.png" width="900" height="500">
+<p align="justify"> <b>Step 4.</b> In the Submission page user can submit phage protein sequence in two
+    ways shown in red circles in the below figure.  </p>
+<img src="/static/img/SubmissionPage1.png" width="900" height="500">
+<p align="justify"> <b>Step 5.</b> If user doesn’t have any phage protein sequence in FASTA format.
+    User can click the <b>Example</b> button for sample of example sequences. The Example button is shown
+    in below figure with a red circle.  </p>
+<img src="/static/img/SubmissionPage2.png" width="900" height="500">
+<p align="justify"> <b>Step 6.</b> If user clicked the Example button, then it will auto generate sample
+    of phage protein sequences in the input text field. Now user has to click the <b>Submit</b> button shown in
+    the below figure with a red circle. </p>
+<img src="/static/img/SubmissionPage3.png" width="900" height="500">
+<p align="justify"> <b>Step 7.</b> User also can choose the phage protein sequences FASTA file from
+    his/her Computer, Mobile, Tablet etc..  The choose file option is shown in the below figure with
+    a red circle. After choose the FASTA file from local system user has to click the <b>Submit</b> button
+    shown in the same figure also with a red circle.   </p>
+<img src="/static/img/SubmissionPage4.png" width="900" height="500">
+<p align="justify"> <b>Step 8.</b> After clicking the <b>Submit</b> button user will redirect the result page.
+    The result page will show the submitted phage protein sequences header name, prediction score and
+    prediction class. The result page is shown in the below figure. </p>
+<img src="/static/img/SubmissionResultPage.png" width="900" height="300">
+
+<br><br>
+{% endblock %}

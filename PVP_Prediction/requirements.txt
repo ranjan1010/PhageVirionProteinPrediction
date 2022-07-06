@@ -1,2 +1,0 @@
-pandas==1.2.3
-protlearn==0.0.3
